@@ -2,8 +2,8 @@
 
 ## Testing
 
-[![Build Status](https://travis-ci.org/Edsdover/apt-manager.svg?branch=master)](https://travis-ci.org/Edsdover/bedlam)
-[![Coverage Status](https://coveralls.io/repos/Edsdover/apt-manager/badge.svg?branch=master)](https://coveralls.io/r/Edsdover/bedlam?branch=master)
+[![Coverage Status](https://coveralls.io/repos/Edsdover/apt-manager/badge.svg)](https://coveralls.io/r/Edsdover/apt-manager)
+[![Build Status](https://travis-ci.org/Edsdover/apt-manager.svg?branch=master)](https://travis-ci.org/Edsdover/apt-manager)
 
 ## Tech
 
