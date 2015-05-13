@@ -2,7 +2,7 @@
 
 ## Testing
 
-[![Coverage Status](https://coveralls.io/repos/Edsdover/apt-manager/badge.svg)](https://coveralls.io/r/Edsdover/apt-manager)
+[![Coverage Status](https://coveralls.io/repos/Edsdover/apt-manager/badge.svg?branch=master)](https://coveralls.io/r/Edsdover/apt-manager?branch=master)
 [![Build Status](https://travis-ci.org/Edsdover/apt-manager.svg?branch=master)](https://travis-ci.org/Edsdover/apt-manager)
 
 ## Tech
