@@ -48,14 +48,14 @@ describe('GET /properties', function(){
   it('should get a managers property by id', function(done){
     server.inject({method: 'GET', url: '/properties/b00000078901234567890013', credentials: {_id: 'b12345678901234567890012'}}, function(response){
       expect(response.statusCode).to.equal(200);
-      expect(response.result.property).to.have.length(1);
+      expect(response.result.property.name).to.equal('Lover Condo');
       done();
     });
   });
   it('should not get one managers property for another', function(done){
     server.inject({method: 'GET', url: '/properties/b00000078901234567890013', credentials: {_id: 'b12345678901234567890013'}}, function(response){
       expect(response.statusCode).to.equal(200);
-      expect(response.result.property).to.have.length(0);
+      expect(response.result.property).to.be.null;
       done();
     });
   });
@@ -66,7 +66,7 @@ describe('GET /properties', function(){
     });
   });
   it('should return err if server explodes', function(done){
-    var stub = Sinon.stub(Property, 'find').yields(new Error());
+    var stub = Sinon.stub(Property, 'findOne').yields(new Error());
     server.inject({method: 'GET', url: '/properties/b00000078901234567890013', credentials: {_id: 'b12345678901234567890012'}}, function(response){
       expect(response.statusCode).to.equal(418);
       stub.restore();
