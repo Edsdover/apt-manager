@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {"$oid": "b00000078901234567890011"},
+    "managerId": {"$oid": "b12345678901234567890011"},
+    "name": "Lover Mansion",
+    "address": "420 Stoner St",
+    "apartments": [],
+    "createdAt": {"$date": 1431541064745}
+  },
+  {
+    "_id": {"$oid": "b00000078901234567890012"},
+    "managerId": {"$oid": "b12345678901234567890012"},
+    "name": "Lover House",
+    "address": "425 Stoner St",
+    "apartments": [],
+    "createdAt": {"$date": 1431541064745}
+  },
+  {
+    "_id": {"$oid": "b00000078901234567890013"},
+    "managerId": {"$oid": "b12345678901234567890012"},
+    "name": "Lover Condo",
+    "address": "430 Stoner St",
+    "apartments": [],
+    "createdAt": {"$date": 1431541064745}
+  },
+  {
+    "_id": {"$oid": "b00000078901234567890014"},
+    "managerId": {"$oid": "b12345678901234567890011"},
+    "name": "Lover Palace",
+    "address": "435 Stoner St",
+    "apartments": [],
+    "createdAt": {"$date": 1431541064745}
+  },
+  {
+    "_id": {"$oid": "b00000078901234567890015"},
+    "managerId": {"$oid": "b12345678901234567890011"},
+    "name": "Lover Estate",
+    "address": "440 Stoner St",
+    "apartments": [],
+    "createdAt": {"$date": 1431541064745}
+  }
+]
