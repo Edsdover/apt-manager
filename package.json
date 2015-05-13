@@ -28,7 +28,9 @@
   "devDependencies": {
     "chai": "^2.3.0",
     "coveralls": "^2.11.2",
+    "jscoverage": "^0.5.9",
     "lab": "^5.8.1",
+    "nodeunit": "^0.9.1",
     "sinon": "^1.14.1"
   }
 }
